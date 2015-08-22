@@ -13,7 +13,7 @@
 	require_once dirname(__FILE__)."/SCurlRequest.php";
 	require_once dirname(__FILE__)."/SCurlResult.php";
 
-	class SCurl extends CApplicationComponent
+	class SCurl
 	{
 
 		const METHOD_GET = "GET";

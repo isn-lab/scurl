@@ -37,6 +37,18 @@ Usage:
 				'X-CSRF-Token:' . 'qwerty',
 				'X-Requested-With: XMLHttpRequest'
 			);
+			
+			//Run curl from localhost interface or someone else
+			$request->from_interface = '127.0.0.1';
+			
+			//Set Proxy for request
+			$request->proxy = '192.168.0.1:8080';
+			
+			//Set User Agent
+			$request->ua = 'Some new User agent';
+			
+			//Set option for debug curl if need
+			$request->debug = true
 
 			//Set parameters
 			$request->params = array(

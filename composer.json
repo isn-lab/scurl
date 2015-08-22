@@ -1,11 +1,20 @@
 {
     "name": "isn-lab/scurl",
     "description": "PHP Curl helper",
+	"type": "library",
+	"minimum-stability": "stable",
+	"keywords": ["isn", "curl"],
+	
     "authors": [
         {
             "name": "Sedov Sergey",
             "email": "sedov.sergey@isnlab.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.2"
+    },
+	"autoload": {
+        "files": ["SCurl.php"]
+    },
 }
