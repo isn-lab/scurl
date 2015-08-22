@@ -12,7 +12,9 @@
         }
     ],
     "require": {
-        "php": ">=5.2"
+        "php": ">=5.2",
+		"lib-curl": "*",
+		"lib-openssl": "*"
     },
 	"autoload": {
         "files": ["SCurl.php"]
