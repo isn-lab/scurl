@@ -1,0 +1,11 @@
+{
+    "name": "isn-lab/scurl",
+    "description": "PHP Curl helper",
+    "authors": [
+        {
+            "name": "Sedov Sergey",
+            "email": "sedov.sergey@isnlab.com"
+        }
+    ],
+    "require": {}
+}
