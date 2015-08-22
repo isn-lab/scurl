@@ -3,7 +3,7 @@
     "description": "PHP Curl helper",
 	"type": "library",
 	"minimum-stability": "stable",
-	"keywords": ["isn", "curl"],
+	"keywords": ["helper", "curl"],
 	
     "authors": [
         {
@@ -16,5 +16,5 @@
     },
 	"autoload": {
         "files": ["SCurl.php"]
-    },
+    }
 }
